@@ -11070,6 +11070,20 @@ html {
   border-bottom: black double 1px;
   margin: 1em;
 }
-.carousel1{
-  height: 100px !important;
+.fotoca{
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.carousel-inner img {
+  width: 100%;
+  max-height: 1060px;
+}
+
+.carousel-inner{
+height: 600px;
+}
+#imgvol{
+  width: 50px;
+  height: 50px;
 }

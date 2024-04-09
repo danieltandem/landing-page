@@ -52,3 +52,18 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+function alternarImagenSonido() {
+    const boton = document.getElementById("boton");
+    boton.onclick = function() {
+        // Reproducir el sonido
+        const audio = new Audio("audio.mp3");
+        audio.play();
+    
+        // Cambiar la imagen
+        const imagen = document.getElementById("boton").getElementsByTagName("img")[0];
+        imagen.src = "mute.svg";
+    
+        // Silenciar el sonido
+        audio.muted = true;
+    };
+}
