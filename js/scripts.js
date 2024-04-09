@@ -52,18 +52,37 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
-function alternarImagenSonido() {
-    const boton = document.getElementById("boton");
-    boton.onclick = function() {
-        // Reproducir el sonido
-        const audio = new Audio("audio.mp3");
+const boton = document.getElementById("boton");
+const audio = document.getElementById("audio");
+
+boton.addEventListener("click", () => {
+    if (audio.paused) {
         audio.play();
-    
-        // Cambiar la imagen
-        const imagen = document.getElementById("boton").getElementsByTagName("img")[0];
-        imagen.src = "mute.svg";
-    
-        // Silenciar el sonido
-        audio.muted = true;
-    };
-}
+        boton.classList.remove("boton-pausar");
+        boton.classList.add("boton-reproducir");
+    } else {
+        audio.pause();
+        boton.classList.add("boton-pausar");
+        boton.classList.remove("boton-reproducir");
+    }
+});
+
+const toggleModeButton = document.getElementById("toggle-mode");
+
+toggleModeButton.addEventListener("click", () => {
+  document.body.classList.toggle("dark-mode");
+  // Opcional: guarda la preferencia del usuario en localStorage
+});
+const cambiarImagenButton = document.getElementById("toggle-mode");
+const imagen1 = document.getElementById("imagen1");
+const imagen2 = document.getElementById("imagen2");
+
+cambiarImagenButton.addEventListener("click", () => {
+  if (imagen1.style.display === "none") {
+    imagen1.style.display = "block";
+    imagen2.style.display = "none";
+  } else {
+    imagen1.style.display = "none";
+    imagen2.style.display = "block";
+  }
+});
