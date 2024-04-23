@@ -11042,13 +11042,13 @@ html {
 }
 
 .copyright {
-  background-color: #A6ACAF;
+  background-color: whitesmoke;
 }
 .logo1{
-  width: 90px;
-  height: 80px;
-  border: 3px double black;
+  width: 120px;
+  height: 100px;
   cursor: pointer;
+
 }
 .logo1:hover{
   transform: scale(1.5);
@@ -11072,8 +11072,9 @@ html {
   font-weight: bold ;
 }
 .navbar{
-  background-color: #F3F6F9 !important;
+    /* background-image: url("/assets/img/fondoinf.jpg")!important; */
   font-style: italic;
+  background-color: #0dcaf0 !important;
 }
 .navitem{
   color: black !important;
@@ -11290,3 +11291,186 @@ td {
   color: white;
   text-align: center;
 }
+.navv{
+  background-image: url("/assets/img/fondoinf.jpg");
+}
+.caroo{
+  position: relative !important;
+}
+.abso{
+  position:absolute !important;
+}
+.h3car{
+  margin-bottom: 10px;
+  margin-left: 320px;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-size: 180px;
+  color: #F0E68C;
+  cursor: pointer;
+  letter-spacing: 0.15em;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+.h3car2{
+  margin-bottom: 50px;
+  margin-left: 270px;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-size: 150px;
+  color: #F0E68C;;
+  cursor: pointer;
+  letter-spacing: 0.17em;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);;
+}
+.h3car3{
+  margin-bottom: 10px;
+  margin-left: 320px;
+  font-family: "Bebas Neue", sans-serif;
+  font-style: normal;
+  font-size: 180px;
+  color:  #F0E68C;;
+  cursor: pointer;
+  letter-spacing: 0.15em;
+  font-weight: bold;
+  text-shadow: 0 1px 0 #ddd, 0 2px 0 #ccc, 0 3px 0 #bbb, 0 4px 0 #aaa, 0 5px 0 #acacac, 0 6px 1px rgba(0,0,0,0.1), 0 0 5px rgba(0,0,0,0.1), 0 1px 3px rgba(0,0,0,0.3), 0 3px 5px rgba(0,0,0,0.2), 0 5px 10px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.2), 0 20px 20px rgba(0,0,0,0.15);
+}
+.pcar{
+  margin-bottom: 50px;
+  margin-left: 389px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  width: 40%;
+  color: white;
+  background: hsl(0, 100%, 1%, .3);
+  padding: 36px;
+  font-weight: bold;
+}
+.pcar2{
+  margin-bottom: 62px;
+  margin-left: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  width: 40%;
+  color: white;
+  background-color: #1a2530;
+  background: hsl(0, 100%, 1%, .4);
+  padding: 45px;
+  font-weight: bold;
+}
+.pcar3{
+  margin-bottom: 50px;
+  margin-left: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: justify;
+  width: 40%;
+  color: white;
+  background-color: #1a2530;
+  background: hsl(0, 100%, 1%, .7);
+  padding: 45px;
+  font-weight: bold;
+}
+.layout{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.butcar{
+  padding: 20px 100px;
+  background-color: #007bff;
+  border: 4px solid black;
+  cursor: pointer;
+  margin-left: 470px;
+  margin-bottom: 50px;
+  background-image: url("/assets/img/nubes.jpg");
+  color:#F0E68C;
+  font-family: fantasy;
+  font-size: 350%;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  box-shadow: 3px 6px 6px 3px black;
+}
+.butcar2{
+  padding: 20px 100px;
+  background-color: #007bff;
+  border: 4px solid black;
+  cursor: pointer;
+  margin-left: 470px;
+  margin-bottom: 50px;
+  background-color: #e9eb08;
+  background-image: url("/assets/img/fondotopo.jpg");  
+  color: white;
+  opacity: 90%;
+  font-family: fantasy;
+  font-size: 350%;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  box-shadow: 3px 6px 6px 3px black;
+}
+.butcar3{
+  padding: 20px 100px;
+  background-color: #007bff;
+  border: 4px solid black;
+  cursor: pointer;
+  margin-left: 470px;
+  margin-bottom: 50px;
+  background-color: #e9eb08;
+  background-image: url("/assets/img/fondo-abeja.jpg");  
+  color: white;
+  opacity: 90%;
+  font-family: fantasy;
+  font-size: 350%;
+  text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+  box-shadow: 3px 6px 6px 3px black;
+}
+
+#scroll-to-top {
+  position: fixed; /* Posicionamiento fijo */
+  bottom: 10px; /* Margen inferior */
+  right: 10px; /* Margen derecho */
+  background-color: white; /* Color de fondo */
+  border: 2px double black; /* Quitar borde */
+  padding: 25px; /* Relleno */
+  cursor: pointer; /* Indicador de cursor */
+  opacity: 0; /* Oculto inicialmente */
+  transition: opacity 0.5s ease; /* Transición de opacidad */
+  border-radius: 80%;
+  box-shadow: 3px 3px 3px 3px black;
+}
+
+
+.scrolled #scroll-to-top {
+  opacity: 1; /* Visible al desplazarse */
+}
+
+.arriba{
+  border-radius: 3px solid black;
+  background-color: gray;
+}
+.flecha{
+  height: 30px;
+  width: 30px;
+}
+
+/* @media (max-width: 576px) {
+
+  body {
+      font-size: 14px;
+  }
+  #carouselExampleControls{
+    margin-top: 2em;
+  }
+}
+@media (min-width: 577px) and (max-width: 991px) {
+
+  body {
+      font-size: 16px;
+  }
+} */
